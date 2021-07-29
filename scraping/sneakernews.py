@@ -12,5 +12,4 @@ for index, row in enumerate(rows):
     title=sneaker.find_element_by_class_name('wz_subject')
     print(title.text)
 
-
 driver.quit()
