@@ -5,6 +5,8 @@ import ApiExample from "./pages/ApiExample";
 import AxiosTest from "./pages/AxiosTest";
 import ListPage from "./pages/ListPage";
 import NewsPage from "./pages/NewsPage";
+import HospitalList from "./pages/HospitalList";
+import HospitalDetail from "./pages/HospitalDetail";
 
 function App() {
   return (
@@ -24,6 +26,12 @@ function App() {
         </Route>
         <Route path="/api01" exact>
           <ApiExample />
+        </Route>
+        <Route path="/hospital" exact>
+          <HospitalList />
+        </Route>
+        <Route path="/hospitalDetail" exact>
+          <HospitalDetail />
         </Route>
       </Switch>
     </Router>
